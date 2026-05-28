@@ -1,0 +1,26 @@
+algovoi-reference-agent
+Copyright 2026 AlgoVoi (chopmob-cloud)
+
+This product includes software developed by AlgoVoi
+(https://docs.algovoi.co.uk/acquisition).
+
+The receipt format specifications composed by this agent are normatively
+defined in the following IETF Internet-Drafts under sole AlgoVoi authorship:
+
+- draft-hopley-x402-canonicalisation-jcs-v1
+- draft-hopley-x402-settlement-attestation
+- draft-hopley-x402-compliance-receipt (composable)
+- draft-hopley-x402-refund-receipt (composable)
+- draft-hopley-x402-cancellation-receipt (composable)
+- draft-hopley-x402-composite-trust-query (composable)
+
+The reference implementation libraries this agent composes are published
+under AlgoVoi authorship on PyPI and npm:
+
+- algovoi-substrate / @algovoi/substrate
+- algovoi-settlement-attestation / @algovoi/settlement-attestation
+
+Apache 2.0 grants permission to USE, MODIFY, and DISTRIBUTE this reference
+code. It does not grant permission to republish the normative receipt format,
+the canonicalisation discipline, or the settlement-attestation-v1 schema
+under a different authorship.
