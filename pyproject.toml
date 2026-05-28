@@ -57,8 +57,8 @@ algovoi-agent = "algovoi_reference_agent.cli:main"
 Homepage = "https://docs.algovoi.co.uk/acquisition"
 Repository = "https://github.com/chopmob-cloud/algovoi-reference-agent"
 Issues = "https://github.com/chopmob-cloud/algovoi-reference-agent/issues"
-"IETF I-D (settlement-attestation)" = "https://datatracker.ietf.org/doc/draft-hopley-x402-settlement-attestation/"
-"IETF I-D (canonicalisation)" = "https://datatracker.ietf.org/doc/draft-hopley-x402-canonicalisation-jcs-v1/"
+"IETF Settlement Attestation" = "https://datatracker.ietf.org/doc/draft-hopley-x402-settlement-attestation/"
+"IETF Canonicalisation" = "https://datatracker.ietf.org/doc/draft-hopley-x402-canonicalisation-jcs-v1/"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
