@@ -1,0 +1,70 @@
+{
+  "name": "@algovoi/reference-agent",
+  "version": "0.1.0",
+  "description": "Apache 2.0 reference implementation of an agent that emits an AlgoVoi settlement-attestation-v1 receipt for a Base chain transaction. TypeScript port; byte-for-byte parity with the Python algovoi-reference-agent.",
+  "keywords": [
+    "algovoi",
+    "agent",
+    "x402",
+    "settlement-attestation",
+    "jcs",
+    "rfc8785",
+    "agentic-payments",
+    "base",
+    "reference-implementation"
+  ],
+  "homepage": "https://docs.algovoi.co.uk/acquisition",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chopmob-cloud/algovoi-reference-agent.git",
+    "directory": "typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/chopmob-cloud/algovoi-reference-agent/issues"
+  },
+  "license": "Apache-2.0",
+  "author": "AlgoVoi <chopmob@gmail.com>",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "algovoi-agent": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@algovoi/substrate": "^0.3.0",
+    "@algovoi/settlement-attestation": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
