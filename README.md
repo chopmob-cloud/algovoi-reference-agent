@@ -93,6 +93,17 @@ The reference implementation libraries are published under AlgoVoi authorship
 on PyPI and npm. The conformance corpus is maintained at
 [chopmob-cloud/algovoi-jcs-conformance-vectors](https://github.com/chopmob-cloud/algovoi-jcs-conformance-vectors).
 
+## Tests
+
+```bash
+# Python (16 tests)
+pip install -e .[dev]
+python -m pytest tests/ -v
+
+# TypeScript (17 tests)
+cd typescript && npm install && npm test
+```
+
 ## License
 
 Apache 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
