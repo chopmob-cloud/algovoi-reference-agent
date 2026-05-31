@@ -1,7 +1,8 @@
 # algovoi-reference-agent
 
+[![PyPI](https://img.shields.io/pypi/v/algovoi-reference-agent?label=PyPI)](https://pypi.org/project/algovoi-reference-agent/)
+[![npm](https://img.shields.io/npm/v/@algovoi/reference-agent?label=npm)](https://www.npmjs.com/package/@algovoi/reference-agent)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![PyPI](https://img.shields.io/badge/PyPI-algovoi--reference--agent-blue)](https://pypi.org/project/algovoi-reference-agent/)
 
 Apache 2.0 reference implementation of an agent that emits an AlgoVoi
 `settlement-attestation-v1` receipt for a Base chain transaction. End-to-end
