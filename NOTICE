@@ -14,6 +14,8 @@ defined in the following IETF Internet-Drafts under sole AlgoVoi authorship:
 - draft-hopley-x402-cancellation-receipt (composable)
 - draft-hopley-x402-composite-trust-query (composable)
 
+This implementation builds on RFC 8785 (JSON Canonicalization Scheme), an IETF standard edited by Anders Rundgren. AlgoVoi acknowledges RFC 8785 as the underlying canonicalisation scheme and does not claim authorship of it. AlgoVoi's authorship covers the receipt format specifications above, the canonicalisation discipline that pins RFC 8785 together with SHA-256 for x402, and the action_ref derivation that compose on top of that scheme.
+
 The reference implementation libraries this agent composes are published
 under AlgoVoi authorship on PyPI and npm:
 
