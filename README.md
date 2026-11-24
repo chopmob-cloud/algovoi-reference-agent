@@ -1,6 +1,6 @@
 # algovoi-reference-agent
 
-[![PyPI](https://img.shields.io/pypi/v/algovoi-reference-agent?label=PyPI)](https://pypi.org/project/algovoi-reference-agent/)
+[![PyPI](https://img.shields.io/pypi/v/algovoi-reference-agent?label=PyPI)](https://pypi.org/project/algovoi-reference-agent/) [![algovoi-jcs-conformance-vectors](https://img.shields.io/badge/algovoi--jcs--conformance--vectors-8A2BE2)](https://github.com/chopmob-cloud/algovoi-jcs-conformance-vectors)
 [![npm](https://img.shields.io/npm/v/@algovoi/reference-agent?label=npm)](https://www.npmjs.com/package/@algovoi/reference-agent)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
